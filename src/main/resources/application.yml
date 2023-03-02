@@ -10,11 +10,10 @@ spring:
       url: jdbc:mysql://localhost:3306/reggie01?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
       username: root
       password: qwepoi
-     redis:
+  redis:
+        host: 127.0.0.1
+        port: 6379
         database: 0
-        host: localhost         # Redis服务器地址
-        port: 6379              # Redis服务器连接端口
-        password:               # Redis服务器连接密码（默认为空）
 
 mybatis-plus:
   configuration:
